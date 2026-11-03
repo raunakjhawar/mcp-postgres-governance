@@ -1,13 +1,5 @@
 # Private Database, Public Tools: runnable Azure MCP sample
 
-Companion repository for [Securing Azure PostgreSQL Behind MCP](azure-postgresql-mcp-security.md).
-
-Expose a **public Azure API Management gateway** in front of a **private-only MCP
-backend**, with direct private access retained for comparison. Both paths use
-the same **private Azure Database for PostgreSQL Flexible Server**. All employee data
-is synthetic. No LLM subscription is required: the official MCP SDK client proves
-the tool and networking behaviour directly.
-
 ## Architecture
 
 ```text
